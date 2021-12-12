@@ -1,0 +1,27 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "web service for my todo app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catercode/PaseTodoBackend.git"
+  },
+  "keywords": [
+    "todoBackend"
+  ],
+  "author": "CaterCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catercode/PaseTodoBackend/issues"
+  },
+  "homepage": "https://github.com/catercode/PaseTodoBackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  }
+}
