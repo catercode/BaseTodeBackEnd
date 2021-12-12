@@ -5,9 +5,9 @@ const todoSchema = Schema({
     title: String,
     description: String,
     dateTime: String,
-    status: Boolean,
+    completed: Boolean,
 
 });
 
-const myTodoModel = model('Code', todoSchema)
+const myTodoModel = model('todo', todoSchema)
 export default myTodoModel;
